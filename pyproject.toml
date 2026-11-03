@@ -1,0 +1,21 @@
+[project]
+name = "python-f2026-basic-stats-abmmir-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Amir Muhammad", email = "muhammada2@queens.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+python-f2026-basic-stats-abmmir-main = "python_f2026_basic_stats_abmmir_main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
